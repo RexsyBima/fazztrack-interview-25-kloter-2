@@ -1,10 +1,11 @@
-const firstName = "Rexsy"
-const lastName = "Bima"
-const yearBirth = 2001
-const age = new Date().getFullYear() - yearBirth
+//                    .__     ____ 
+//   _______________  |  |   /_   |
+//  /  ___/  _ \__  \ |  |    |   |
+//  \___ (  <_> ) __ \|  |__  |   |
+// /____  >____(____  /____/  |___|
+//      \/          \/             
 
-const programsLearned = ["Python", "Rust", "Go", "Javascript", "Typescript"]
-console.log(`Halo, nama saya ${firstName} ${lastName}. saya berumur ${age} tahun dan memiliki pengalaman bahasa pemrograman (dari paling awal sampai terbaru) ${programsLearned}.`)
+
 
 // var, let, dan const merupakan kata kunci untuk melakukan deklarasi variable didalam javascript.
 // var merupakan cara paling kuno dalam mendeklarasikan variable di js, variable yg dideklarasikan dengan var memiliki scope akses lebih luas di fungsinya dibandingkan dengan let yg hanya hidup dalam blok yg sama
@@ -27,13 +28,14 @@ console.log("------------");
 // let merupakan cara paling modern untuk mendeklarasikan variable di js, variable yg dideklarasikan dengan let tidak memiliki scope akses lebih luas di fungsinya dibandingkan dengan var, tetapi hal ini membuat kode javascript lebih aman, dan mengikuti konvensi bagaimana variable bekerja di bahasa pemrograman lain seperti go, dan rust
 // contoh
 //
+//
 function bar() {
 	let foo = "hello";
 	if (true) {
 		let foo = "world";
 		console.log(foo); // "world"
 	}
-	console.log(foo); // "hello" "keluar dari if scope, nilai foo kembali lagi ke hello"
+	console.log(foo); // "hello" "statement ini keluar dari if scope, nilai foo kembali lagi ke hello"
 }
 
 console.log("Hasil dari fungsi bar adalah...");
@@ -52,6 +54,15 @@ console.log("Hasil dari fungsi baz adalah...");
 console.log("------------");
 // bar() // silahkan uncomment panggilan fungsi bar untuk melihat error 
 console.log("------------");
+
+
+//
+//                    .__    ________  
+//   _______________  |  |   \_____  \ 
+//  /  ___/  _ \__  \ |  |    /  ____/ 
+//  \___ (  <_> ) __ \|  |__ /       \ 
+// /____  >____(____  /____/ \_______ \
+//      \/          \/               \/
 
 function mathOperationBasic(x, y, operation) {
 	var output = 0

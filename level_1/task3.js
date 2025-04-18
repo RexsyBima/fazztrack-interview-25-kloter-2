@@ -1,5 +1,13 @@
-// ini comment satu baris
 
+//                    .__     ____ 
+//   _______________  |  |   /_   |
+//  /  ___/  _ \__  \ |  |    |   |
+//  \___ (  <_> ) __ \|  |__  |   |
+// /____  >____(____  /____/  |___|
+//      \/          \/             
+
+
+// ini comment satu baris
 /* tipe data javascript adalah
 1. String
 2. Number
@@ -11,6 +19,15 @@
 8. Object
 let sources = https://www.w3schools.com/js/js_datatypes.asp
 */
+
+
+//
+//                    .__    ________  
+//   _______________  |  |   \_____  \ 
+//  /  ___/  _ \__  \ |  |    /  ____/ 
+//  \___ (  <_> ) __ \|  |__ /       \ 
+// /____  >____(____  /____/ \_______ \
+//      \/          \/               \/
 
 // tipe data string
 const firstName = "Rexsy"
@@ -73,6 +90,14 @@ let hobbies = ["coding", "reading", "sleeping"]
 let cars = ["Toyota", "Honda", "Mazda"]
 let products = ["Laptop", "Smartphone", "Tablet"]
 
+
+
+//                    .__    ________  
+//   _______________  |  |   \_____  \ 
+//  /  ___/  _ \__  \ |  |     _(__  < 
+//  \___ (  <_> ) __ \|  |__  /       \
+// /____  >____(____  /____/ /______  /
+//      \/          \/              \/ 
 
 function mathOperationBasic(x, y, operation) {
 	var output = 0
