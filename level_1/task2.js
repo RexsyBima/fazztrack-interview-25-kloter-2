@@ -52,7 +52,7 @@ function baz() {
 
 console.log("Hasil dari fungsi baz adalah...");
 console.log("------------");
-// bar() // silahkan uncomment panggilan fungsi bar untuk melihat error 
+// baz() // silahkan uncomment panggilan fungsi bar untuk melihat error 
 console.log("------------");
 
 
